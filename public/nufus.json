@@ -1,0 +1,734 @@
+{
+    "data": [
+        {
+            "il_adi": "Adana",
+            "plaka_kodu": " 01",
+            "alan_kodu": "0322",
+            "nufus": "2.220.125",
+            "yuzolcumu": "13.844",
+            "ilcesayisi":"15",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Adıyaman",
+            "plaka_kodu": "02",
+            "alan_kodu": "416",
+            "nufus": "624.513",
+            "yuzolcumu": "7.337",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Afyonkarahisar",
+            "plaka_kodu": "03",
+            "alan_kodu": "272",
+            "nufus": "624.513",
+            "yuzolcumu": "14.016",
+            "ilcesayisi":"18",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Ağrı",
+            "plaka_kodu": "04",
+            "alan_kodu": "472",
+            "nufus": "539.657",
+            "yuzolcumu": "11.099",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Amasya",
+            "plaka_kodu": "05",
+            "alan_kodu": "358",
+            "nufus": "337.508",
+            "yuzolcumu": "5.628",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+
+        },
+        {
+            "il_adi": "Ankara",
+            "plaka_kodu": "06",
+            "alan_kodu": "312",
+            "nufus": "5.503.985",
+            "yuzolcumu": "25.632",
+            "ilcesayisi":"25",
+            "isCapital":"1"
+        },
+        {
+            "il_adi": "Antalya",
+            "plaka_kodu": "07",
+            "alan_kodu": "242",
+            "nufus": "2.426.356",
+            "yuzolcumu": "20.177",
+            "ilcesayisi":"19",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Artvin",
+            "plaka_kodu": "08",
+            "alan_kodu": "466",
+            "nufus": "174.010",
+            "yuzolcumu": "7.393",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Aydın",
+            "plaka_kodu": "09",
+            "alan_kodu": "256",
+            "nufus": "1.097.746",
+            "yuzolcumu": "8.116",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Balıkesir",
+            "plaka_kodu": "10",
+            "alan_kodu": "266",
+            "nufus": "1.226.575",
+            "yuzolcumu": "14.583",
+            "ilcesayisi":"20",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bilecik",
+            "plaka_kodu": "11",
+            "alan_kodu": "228",
+            "nufus": "223.448",
+            "yuzolcumu": "4.179",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bingöl",
+            "plaka_kodu": "12",
+            "alan_kodu": "426",
+            "nufus": "281.205",
+            "yuzolcumu": "8.004",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bitlis",
+            "plaka_kodu": "13",
+            "alan_kodu": "434",
+            "nufus": "349.396",
+            "yuzolcumu": "8.294",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bolu",
+            "plaka_kodu": "14",
+            "alan_kodu": "374",
+            "nufus": "311.810",
+            "yuzolcumu": "8.313",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Burdur",
+            "plaka_kodu": "15",
+            "alan_kodu": "248",
+            "nufus": "269.926",
+            "yuzolcumu": "7.175",
+            "ilcesayisi":"11",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bursa",
+            "plaka_kodu": "16",
+            "alan_kodu": "224",
+            "nufus": "2.994.521",
+            "yuzolcumu": "10.813",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Çanakkale",
+            "plaka_kodu": "17",
+            "alan_kodu": "286",
+            "nufus": "540.662",
+            "yuzolcumu": "9.817",
+            "ilcesayisi":"12",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Çankırı",
+            "plaka_kodu": "18",
+            "alan_kodu": "376",
+            "nufus": "216.362",
+            "yuzolcumu": "7.542",
+            "ilcesayisi":"12",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Çorum",
+            "plaka_kodu": "19",
+            "alan_kodu": "364",
+            "nufus": "536.483",
+            "yuzolcumu": "12.428",
+            "ilcesayisi":"14",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Denizli",
+            "plaka_kodu": "20",
+            "alan_kodu": "258",
+            "nufus": "1.027.782",
+            "yuzolcumu": "12.134",
+            "ilcesayisi":"19",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Diyarbakır",
+            "plaka_kodu": "21",
+            "alan_kodu": "412",
+            "nufus": "1.732.396",
+            "yuzolcumu": "15.168",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Edirne",
+            "plaka_kodu": "22",
+            "alan_kodu": "284",
+            "nufus": "411.528",
+            "yuzolcumu": "6.145",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Elazığ",
+            "plaka_kodu": "23",
+            "alan_kodu": "424",
+            "nufus": "595.638",
+            "yuzolcumu": "9.383",
+            "ilcesayisi":"11",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Erzincan",
+            "plaka_kodu": "24",
+            "alan_kodu": "446",
+            "nufus": "236.034",
+            "yuzolcumu": "11.815",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Erzurum",
+            "plaka_kodu": "25",
+            "alan_kodu": "42",
+            "nufus": "767.848",
+            "yuzolcumu": "25.006",
+            "ilcesayisi":"20",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Eskişehir",
+            "plaka_kodu": "26",
+            "alan_kodu": "222",
+            "nufus": "871.187",
+            "yuzolcumu": "13.960",
+            "ilcesayisi":"14",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Gaziantep",
+            "plaka_kodu": "27",
+            "alan_kodu": "342",
+            "nufus": "2.028.563",
+            "yuzolcumu": "6.803",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Giresun",
+            "plaka_kodu": "28",
+            "alan_kodu": "454",
+            "nufus": "453.912",
+            "yuzolcumu": "7.025",
+            "ilcesayisi":"16",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Gümüşhane",
+            "plaka_kodu": "29",
+            "alan_kodu": "456",
+            "nufus": "162.748",
+            "yuzolcumu": "6.668",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Hakkari",
+            "plaka_kodu": "30",
+            "alan_kodu": "438",
+            "nufus": "286.470",
+            "yuzolcumu": "7.095",
+            "ilcesayisi":"5",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Hatay",
+            "plaka_kodu": "31",
+            "alan_kodu": "326",
+            "nufus": "1.609.856",
+            "yuzolcumu": "5.524",
+            "ilcesayisi":"15",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Isparta",
+            "plaka_kodu": "32",
+            "alan_kodu": "246",
+            "nufus": "441.412",
+            "yuzolcumu": "8.946",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Mersin",
+            "plaka_kodu": "33",
+            "alan_kodu": "324",
+            "nufus": "1.814.468",
+            "yuzolcumu": "16.010",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "İstanbul",
+            "plaka_kodu": "34",
+            "alan_kodu": "212-216",
+            "nufus": "15.067.724",
+            "yuzolcumu": "5.461",
+            "ilcesayisi":"39",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "İzmir",
+            "plaka_kodu": "35",
+            "alan_kodu": "232",
+            "nufus": "4.320.519",
+            "yuzolcumu": "11.891",
+            "ilcesayisi":"30",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kars",
+            "plaka_kodu": "36",
+            "alan_kodu": "474",
+            "nufus": "288.878",
+            "yuzolcumu": "10.193",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kastamonu",
+            "plaka_kodu": "37",
+            "alan_kodu": "366",
+            "nufus": "383.373",
+            "yuzolcumu": "13.064",
+            "ilcesayisi":"20",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kayseri",
+            "plaka_kodu": "38",
+            "alan_kodu": "352",
+            "nufus": "1.389.680",
+            "yuzolcumu": "16.970",
+            "ilcesayisi":"16",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kırklareli",
+            "plaka_kodu": "39",
+            "alan_kodu": "288",
+            "nufus": "360.860",
+            "yuzolcumu": "6.459",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kırşehir",
+            "plaka_kodu": "40",
+            "alan_kodu": "386",
+            "nufus": "241.868",
+            "yuzolcumu": "6.584",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kocaeli",
+            "plaka_kodu": "41",
+            "alan_kodu": "262",
+            "nufus": "1.906.391",
+            "yuzolcumu": "3.397",
+            "ilcesayisi":"12",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Konya",
+            "plaka_kodu": "42",
+            "alan_kodu": "332",
+            "nufus": "2.205.609",
+            "yuzolcumu": "40.838",
+            "ilcesayisi":"31",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kütahya",
+            "plaka_kodu": "43",
+            "alan_kodu": "274",
+            "nufus": "577.941",
+            "yuzolcumu": "577.941",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Malatya",
+            "plaka_kodu": "44",
+            "alan_kodu": "422",
+            "nufus": "797.036",
+            "yuzolcumu": "12259",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Manisa",
+            "plaka_kodu": "45",
+            "alan_kodu": "236",
+            "nufus": "1.429.643",
+            "yuzolcumu": "13.339",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kahramanmaraş",
+            "plaka_kodu": "46",
+            "alan_kodu": "344",
+            "nufus": "1.144.851",
+            "yuzolcumu": "14.520",
+            "ilcesayisi":"11",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Mardin",
+            "plaka_kodu": "47",
+            "alan_kodu": "482",
+            "nufus": "829.195",
+            "yuzolcumu": "8.780",
+            "ilcesayisi":"10",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Muğla",
+            "plaka_kodu": "48",
+            "alan_kodu": "252",
+            "nufus": "967.487",
+            "yuzolcumu": "12654",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Muş",
+            "plaka_kodu": "49",
+            "alan_kodu": "436",
+            "nufus": "407.992",
+            "yuzolcumu": "8.650",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Nevşehir",
+            "plaka_kodu": "50",
+            "alan_kodu": "384",
+            "nufus": "298.339",
+            "yuzolcumu": "5.485",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Niğde",
+            "plaka_kodu": "51",
+            "alan_kodu": "388",
+            "nufus": "364.707",
+            "yuzolcumu": "7.234",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Ordu",
+            "plaka_kodu": "52",
+            "alan_kodu": "452",
+            "nufus": "771.932",
+            "yuzolcumu": "5.861",
+            "ilcesayisi":"19",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Rize",
+            "plaka_kodu": "53",
+            "alan_kodu": "464",
+            "nufus": "348.608",
+            "yuzolcumu": "3.835",
+            "ilcesayisi":"12",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Sakarya",
+            "plaka_kodu": "54",
+            "alan_kodu": "264",
+            "nufus": "1.010.700",
+            "yuzolcumu": "4824",
+            "ilcesayisi":"16",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Samsun",
+            "plaka_kodu": "55",
+            "alan_kodu": "362",
+            "nufus": "1.335.716",
+            "yuzolcumu": "9.725",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Siirt",
+            "plaka_kodu": "56",
+            "alan_kodu": "484",
+            "nufus": "331.670",
+            "yuzolcumu": "5.717",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Sinop",
+            "plaka_kodu": "57",
+            "alan_kodu": "368",
+            "nufus": "219.733",
+            "yuzolcumu": "5.717",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Sivas",
+            "plaka_kodu": "58",
+            "alan_kodu": "346",
+            "nufus": "646.608",
+            "yuzolcumu": "28.164",
+            "ilcesayisi":"17",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Tekirdağ",
+            "plaka_kodu": "59",
+            "alan_kodu": "282",
+            "nufus": "1.029.927",
+            "yuzolcumu": "6.190",
+            "ilcesayisi":"11",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Tokat",
+            "plaka_kodu": "60",
+            "alan_kodu": "356",
+            "nufus": "612.646",
+            "yuzolcumu": "10.042",
+            "ilcesayisi":"12",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Trabzon",
+            "plaka_kodu": "61",
+            "alan_kodu": "462",
+            "nufus": "807.903",
+            "yuzolcumu": "4.628",
+            "ilcesayisi":"18",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Tunceli",
+            "plaka_kodu": "62",
+            "alan_kodu": "428",
+            "nufus": "88.198",
+            "yuzolcumu": "7.582",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Şanlıurfa",
+            "plaka_kodu": "63",
+            "alan_kodu": "414",
+            "nufus": "2.035.809",
+            "yuzolcumu": "19.242",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Uşak",
+            "plaka_kodu": "64",
+            "alan_kodu": "276",
+            "nufus": "367.514",
+            "yuzolcumu": "5.555",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Van",
+            "plaka_kodu": "65",
+            "alan_kodu": "432",
+            "nufus": "1.123.784",
+            "yuzolcumu": "20.921",
+            "ilcesayisi":"13",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Yozgat",
+            "plaka_kodu": "66",
+            "alan_kodu": "354",
+            "nufus": "424.981",
+            "yuzolcumu": "13.690",
+            "ilcesayisi":"14",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Zonguldak",
+            "plaka_kodu": "67",
+            "alan_kodu": "372",
+            "nufus": "599.698",
+            "yuzolcumu": "3.342",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Aksaray",
+            "plaka_kodu": "68",
+            "alan_kodu": "382",
+            "nufus": "412.172",
+            "yuzolcumu": "7.659",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bayburt",
+            "plaka_kodu": "69",
+            "alan_kodu": "458",
+            "nufus": "82.274",
+            "yuzolcumu": "3.746",
+            "ilcesayisi":"3",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Karaman",
+            "plaka_kodu": "70",
+            "alan_kodu": "338",
+            "nufus": "251.913",
+            "yuzolcumu": "8.678",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kırıkkale",
+            "plaka_kodu": "71",
+            "alan_kodu": "318",
+            "nufus": "286.602",
+            "yuzolcumu": "4791",
+            "ilcesayisi":"9",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Batman",
+            "plaka_kodu": "72",
+            "alan_kodu": "488",
+            "nufus": "599.103",
+            "yuzolcumu": "4.477",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Şırnak",
+            "plaka_kodu": "73",
+            "alan_kodu": "486",
+            "nufus": "524.190",
+            "yuzolcumu": "7.078",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Bartın",
+            "plaka_kodu": "74",
+            "alan_kodu": "378",
+            "nufus": "198.999",
+            "yuzolcumu": "2330",
+            "ilcesayisi":"4",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Ardahan",
+            "plaka_kodu": "75",
+            "alan_kodu": "478",
+            "nufus": "98.907",
+            "yuzolcumu": "4.934",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Iğdır",
+            "plaka_kodu": "76",
+            "alan_kodu": "476",
+            "nufus": "197.456",
+            "yuzolcumu": "3664",
+            "ilcesayisi":"4",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Yalova",
+            "plaka_kodu": "77",
+            "alan_kodu": "226",
+            "nufus": "262.234",
+            "yuzolcumu": "798",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Karabük",
+            "plaka_kodu": "78",
+            "alan_kodu": "370",
+            "nufus": "248.014",
+            "yuzolcumu": "4142",
+            "ilcesayisi":"6",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Kilis",
+            "plaka_kodu": "79",
+            "alan_kodu": "348",
+            "nufus": "142.541",
+            "yuzolcumu": "1412",
+            "ilcesayisi":"4",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Osmaniye",
+            "plaka_kodu": "80",
+            "alan_kodu": "328",
+            "nufus": "534.415",
+            "yuzolcumu": "3320",
+            "ilcesayisi":"7",
+            "isCapital":"0"
+        },
+        {
+            "il_adi": "Düzce",
+            "plaka_kodu": "81",
+            "alan_kodu": "380",
+            "nufus": "387.844",
+            "yuzolcumu": "2.492",
+            "ilcesayisi":"8",
+            "isCapital":"0"
+        }
+    ]
+}

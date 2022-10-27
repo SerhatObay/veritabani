@@ -68,6 +68,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#blog">Blog</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#deneme">Deneme</a>
+                            </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                             <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>

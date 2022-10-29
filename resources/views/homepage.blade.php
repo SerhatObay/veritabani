@@ -115,7 +115,7 @@
                         </p>
                     </div>
                 </div>
-                <a href="">
+                <a href="{{asset('tr')}}">
                    DETAYLI BİLGİ
                 </a>
             </div>

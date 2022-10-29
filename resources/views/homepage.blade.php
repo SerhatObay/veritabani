@@ -13,7 +13,7 @@
     <meta name="author" content="" />
 
     <title>
-        TripBiz
+        Ülke Bilgi Sistemi
     </title>
 
     <!-- range selctor slider style -->
@@ -38,7 +38,7 @@
             <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
                 <a class="navbar-brand" href="#">
             <span>
-              TripBiz
+               ÜBS
             </span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,147 +49,38 @@
                     <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                         <ul class="navbar-nav  ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home
+                                <a class="nav-link" href="#">Anasayfa
                                     <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#bookTrip">
-                                    Book Trip
+                                <a class="nav-link" href="#olaylar">
+                                    Dünyayı Etkileyen Olaylar
                                 </a>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#package">
-                                    Packages
+                                <a class="nav-link" href="#haberler">Haberler</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#iletisim">
+                                    İletişim
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#service">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#blog">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#deneme">Deneme</a>
-                            </li>
+
+
+
                         </ul>
-                        <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                        </form>
+
                     </div>
-                    <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
-                        <a href="">
-                            Get A quote
-                        </a>
-                    </div>
+
                 </div>
             </nav>
         </div>
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section ">
-        <div class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="slider_container">
-                            <div class="box">
-                                <div class="detail-box">
-                                    <h1>
-                                        TripBiz
-                                    </h1>
-                                    <h2>
-                                        A
-                                        Human
-                                        Explostion
-                                    </h2>
-                                </div>
-                                <div class="img-box">
-                                    <div class="play_btn">
-                                        <a href="">
-                                            <img src="images/play.png" alt="">
-                                        </a>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="btn-box">
-                                <a href="">
-                                    Discover More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="slider_container">
-                            <div class="box">
-                                <div class="detail-box">
-                                    <h1>
-                                        TripBiz
-                                    </h1>
-                                    <h2>
-                                        A
-                                        Human
-                                        Explostion
-                                    </h2>
-                                </div>
-                                <div class="img-box">
-                                    <div class="play_btn">
-                                        <a href="">
-                                            <img src="images/play.png" alt="">
-                                        </a>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="btn-box">
-                                <a href="">
-                                    Discover More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="slider_container">
-                            <div class="box">
-                                <div class="detail-box">
-                                    <h1>
-                                        TripBiz
-                                    </h1>
-                                    <h2>
-                                        A
-                                        Human
-                                        Explostion
-                                    </h2>
-                                </div>
-                                <div class="img-box">
-                                    <div class="play_btn">
-                                        <a href="">
-                                            <img src="images/play.png" alt="">
-                                        </a>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="btn-box">
-                                <a href="">
-                                    Discover More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom_carousel-control">
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
+
 
     <!-- end slider section -->
 </div>
@@ -209,111 +100,49 @@
     <div class="container">
         <div class="box container-bg">
             <div class="blog_box">
-                <div class="date-box">
-                    <h4>
-                        $160
-                    </h4>
-                </div>
+
                 <div class="detail-box">
                     <div class="img-box">
-                        <img src="images/b-1.jpg" alt="">
+                        <img src="images/türkiye.png" alt="">
                     </div>
                     <div class="text-box">
                         <h5>
-                            Warsaw Day Tour
+                           TÜRKİYE
                         </h5>
-                        <h6>
-                            Duration: 4 hours 20 mins
-                        </h6>
+
                         <p>
-                            It is a long established fact that a reader will be distracted by
+                            TÜRKİYE CUMHURİYETİ
                         </p>
                     </div>
                 </div>
                 <a href="">
-                    Book Now
+                   DETAYLI BİLGİ
                 </a>
             </div>
-            <div class="blog_box-cover">
+
+
+
                 <div class="blog_box">
-                    <div class="date-box">
-                        <h4>
-                            $130
-                        </h4>
-                    </div>
+
                     <div class="detail-box">
                         <div class="img-box">
-                            <img src="images/b-2.jpg" alt="">
+                            <img src="images/avrupa.png" alt="">
                         </div>
                         <div class="text-box">
                             <h5>
-                                Islands Trip
+                               AVRUPA
                             </h5>
-                            <h6>
-                                Duration: 4 hours 20 mins
-                            </h6>
+
                             <p>
-                                It is a long established fact that a reader will be distracted by
+                             AVRUPA ÜLKELERİ
                             </p>
                         </div>
                     </div>
                     <a href="">
-                        Book Now
-                    </a>
-                </div>
-                <div class="blog_box">
-                    <div class="date-box">
-                        <h4>
-                            $150
-                        </h4>
-                    </div>
-                    <div class="detail-box">
-                        <div class="img-box">
-                            <img src="images/b-4.jpg" alt="">
-                        </div>
-                        <div class="text-box">
-                            <h5>
-                                Santorini Islands Tour
-                            </h5>
-                            <h6>
-                                Duration: 4 hours 20 mins
-                            </h6>
-                            <p>
-                                It is a long established fact that a reader will be distracted by
-                            </p>
-                        </div>
-                    </div>
-                    <a href="">
-                        Book Now
-                    </a>
+                       DETAYLI BİLGİ
                 </div>
             </div>
-            <div class="blog_box">
-                <div class="date-box">
-                    <h4>
-                        $140
-                    </h4>
-                </div>
-                <div class="detail-box">
-                    <div class="img-box">
-                        <img src="images/b-3.jpg" alt="">
-                    </div>
-                    <div class="text-box">
-                        <h5>
-                            Warsaw Day Tour
-                        </h5>
-                        <h6>
-                            Duration: 4 hours 20 mins
-                        </h6>
-                        <p>
-                            It is a long established fact that a reader will be distracted by
-                        </p>
-                    </div>
-                </div>
-                <a href="">
-                    Book Now
-                </a>
-            </div>
+
         </div>
     </div>
 </section>
@@ -360,52 +189,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <h5>
-                        Subscribe Newsletter
-                    </h5>
-                    <p>
-                        ncididunt ut labore et dolore magna
-                        minim veniam, quis nostrud
-                    </p>
-                    <form action="">
-                        <input type="text" placeholder="Enter your email">
-                        <div class="">
-                            <button>
-                                Subscribe
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <div class=" col-lg-4">
+
+                <div class=" col-lg-7">
                     <div class="info_nav_link">
                         <h5>
-                            Useful link
+                           Menü
                         </h5>
                         <ul>
                             <li>
                                 <a href="#">
-                                    Home
+                                  Anasayfa
                                 </a>
                             </li>
                             <li>
-                                <a href="#bookTrip">
-                                    Book trip
+                                <a href="#olaylar">
+                                    Dünyayı Etkileyen Olaylar
                                 </a>
                             </li>
                             <li>
-                                <a href="#package">
-                                    Packages
+                                <a href="#haberler">
+                                    Haberler
                                 </a>
                             </li>
+
                             <li>
-                                <a href="#service">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#blog">
-                                    Blog
+                                <a href="#iletisim">
+                                    İletişim
                                 </a>
                             </li>
                         </ul>
@@ -413,20 +222,20 @@
                 </div>
                 <div class="col-lg-4">
                     <h5>
-                        Address
+                        Adres
                     </h5>
                     <div class="info_link-box">
                         <a href="">
                             <img src="images/location2.png" alt="">
-                            <span> Passages of Lorem Ipsum available</span>
+                            <span> Fırat Üniversitesi/Elazığ</span>
                         </a>
                         <a href="">
                             <img src="images/call.png" alt="">
-                            <span>Call : +01234567890</span>
+                            <span>Telefon</span>
                         </a>
                         <a href="">
                             <img src="images/mail.png" alt="">
-                            <span> demo@gmail.com</span>
+                            <span> Email</span>
                         </a>
                     </div>
                 </div>
@@ -434,11 +243,11 @@
             <!-- footer section -->
             <section class=" footer_section">
                 <p>
-                    Copyright &copy; 2021 All Rights Reserved By
-                    <a href="https://html.design/">Free
-                        Html Templates</a><br><p>
-                    Distributed By
-                    <a href="https://themewagon.com">Themewagon</a>
+                    Copyright &copy; 2022 Tüm Hakları Saklıdır.
+
+                    <br><p>
+                   VTYS TEAM
+
                 </p>
                 </p>
             </section>

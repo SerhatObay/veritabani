@@ -213,7 +213,7 @@
                             </li>
 
                             <li>
-                                <a href="#iletisim">
+                                <a href="#iletisimm">
                                     İletişim
                                 </a>
                             </li>

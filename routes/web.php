@@ -21,3 +21,7 @@ Route::get('/test',[\App\Http\Controllers\Api\CityController::class,'store']);
 Route::get('/tr',function (){
     return view('tr_map');
 });
+
+Route::get("/contact",function (){
+    return view("contact");
+});

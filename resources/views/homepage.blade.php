@@ -63,7 +63,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#iletisim">
+                                <a class="nav-link" href="{{asset("contact")}}">
                                     İletişim
                                 </a>
                             </li>

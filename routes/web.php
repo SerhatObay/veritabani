@@ -22,6 +22,6 @@ Route::get('/tr',function (){
     return view('tr_map');
 });
 
-Route::get("/contact",function (){
+Route::get("/iletisim",function (){
     return view("contact");
 });

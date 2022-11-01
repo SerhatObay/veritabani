@@ -36,7 +36,7 @@
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
             <span>
                ÜBS
             </span>
@@ -49,7 +49,7 @@
                     <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                         <ul class="navbar-nav  ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Anasayfa
+                                <a class="nav-link" href="/">Anasayfa
                                     <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
@@ -63,7 +63,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{{asset("contact")}}">
+                                <a class="nav-link" href="{{asset("iletisim")}}">
                                     İletişim
                                 </a>
                             </li>
@@ -213,7 +213,7 @@
                             </li>
 
                             <li>
-                                <a href="#iletisimm">
+                                <a href="{{asset('iletisim')}}">
                                     İletişim
                                 </a>
                             </li>
@@ -225,7 +225,7 @@
                         Adres
                     </h5>
                     <div class="info_link-box">
-                        <a href="">
+                        <a href="https://www.firat.edu.tr/tr">
                             <img src="images/location2.png" alt="">
                             <span> Fırat Üniversitesi/Elazığ</span>
                         </a>

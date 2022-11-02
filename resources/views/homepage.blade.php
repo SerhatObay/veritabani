@@ -49,17 +49,17 @@
                     <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                         <ul class="navbar-nav  ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Anasayfa
+                                <a class="nav-link" href="/">Ana Sayfa
                                     <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#olaylar">
+                                <a class="nav-link" href="https://www.tarihiolaylar.com/galeriler/dunya-tarihini-degistiren-20-olay-122">
                                     Dünyayı Etkileyen Olaylar
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#haberler">Haberler</a>
+                                <a class="nav-link" href="https://www.hurriyet.com.tr/dunya/">Haberler</a>
                             </li>
 
                             <li class="nav-item">
@@ -167,23 +167,23 @@
             <div class="social_container">
                 <div class="info_social">
                     <div>
-                        <a href="">
-                            <img src="images/facebook-logo-button.png" alt="">
+                        <a href="https://github.com/rburakdinc">
+                            <img src="images/github.png" alt="">
                         </a>
                     </div>
                     <div>
-                        <a href="">
-                            <img src="images/twitter-logo-button.png" alt="">
+                        <a href="https://github.com/SerhatObay">
+                            <img src="images/github.png" alt="">
                         </a>
                     </div>
                     <div>
-                        <a href="">
-                            <img src="images/linkedin.png" alt="">
+                        <a href="https://github.com/selimhanyldrm">
+                            <img src="images/github.png" alt="">
                         </a>
                     </div>
                     <div>
-                        <a href="">
-                            <img src="images/instagram.png" alt="">
+                        <a href="https://github.com/yusraturgut">
+                            <img src="images/github.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -198,16 +198,16 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                  Anasayfa
+                                  Ana Sayfa
                                 </a>
                             </li>
                             <li>
-                                <a href="#olaylar">
+                                <a href="https://www.tarihiolaylar.com/galeriler/dunya-tarihini-degistiren-20-olay-122">
                                     Dünyayı Etkileyen Olaylar
                                 </a>
                             </li>
                             <li>
-                                <a href="#haberler">
+                                <a href="https://www.hurriyet.com.tr/dunya/">
                                     Haberler
                                 </a>
                             </li>

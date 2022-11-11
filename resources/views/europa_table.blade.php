@@ -24,6 +24,25 @@
                                 <th>Dataylı Bilgi</th>
                             </tr>
                             </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td style="width: 100px">
+                                        <a href="" class="btn btn-xs btn-success" data-toggle="tooltip" data-placement="top" title="Düzenle">
+                                            <span class="fa fa-pencil"></span>
+                                        </a>
+
+                                    </td>
+                                </tr>
+
+                            </tbody>
 
                         </table>
                     </div>

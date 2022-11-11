@@ -25,3 +25,9 @@ Route::get('/tr',function (){
 Route::get("/iletisim",function (){
     return view("contact");
 });
+
+Route::get("/europa",function (){
+    return view("europa_table");
+});
+
+Route::get('/oturumukapat','App\Http\Controllers\Yonetim\KullaniciController@oturumukapat')->name('yonetim.oturumukapat');

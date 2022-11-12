@@ -30,4 +30,6 @@ Route::get("/europa",function (){
     return view("europa_table");
 });
 
-Route::get('/oturumukapat','App\Http\Controllers\Yonetim\KullaniciController@oturumukapat')->name('yonetim.oturumukapat');
+Route::get("/city",function (){
+    return view("city_detail");
+});

@@ -26,10 +26,10 @@ Route::get("/iletisim",function (){
     return view("contact");
 });
 
-Route::get("/europa",function (){
+Route::get("/avrupa",function (){
     return view("europa_table");
 });
 
-Route::get("/city",function (){
+Route::get("/sehirler",function (){
     return view("city_detail");
 });

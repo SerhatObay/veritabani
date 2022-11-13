@@ -110,7 +110,7 @@
                             </p>
                         </div>
                     </div>
-                    <a href="{{asset('europa')}}">
+                    <a href="{{asset('avrupa')}}">
                        DETAYLI BİLGİ
                 </div>
             </div>
@@ -120,13 +120,6 @@
 </section>
 
 <!-- end blog section -->
-
-
-
-
-
-
-
 
 </body>
 

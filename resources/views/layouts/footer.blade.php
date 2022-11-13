@@ -77,7 +77,7 @@
                         </a>
                         <a href="">
                             <img src="images/mail.png" alt="">
-                            <span> Email</span>
+                            <span> E-mail</span>
                         </a>
                     </div>
                 </div>

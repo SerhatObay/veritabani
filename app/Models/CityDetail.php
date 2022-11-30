@@ -5,15 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class City extends Model
+class CityDetail extends Model
 {
     use HasFactory;
-    protected $table = 'cities';
+    protected $table="cities_detail";
     protected $primaryKey="id";
     protected $guarded =[];
-
-
-
 
 
 }

@@ -25,9 +25,12 @@ const card = document.querySelector('#card');
                     '<div>',
                     event.target.parentNode.getAttribute('data-iladi'),
                     '<hr>',
-                    '<b>Yüz Ölçümü: 21212 </b>',
 
+
+                    '<b>Yüzölçümü: </b>',
+                    event.target.parentNode.getAttribute('data-yuzolcumu'),
                     '<br>',
+
 
 
 
@@ -37,6 +40,14 @@ const card = document.querySelector('#card');
 
                     '<b>İlce Sayısı: </b>',
                     event.target.parentNode.getAttribute('data-ilcesayisi'),
+                    '<br>',
+
+                    '<b>Plaka Kodu: </b>',
+                    event.target.parentNode.getAttribute('data-plakakodu'),
+                    '<br>',
+
+                    '<b>Alan Kodu </b>',
+                    event.target.parentNode.getAttribute('data-alankodu'),
                     '<br>',
 
 

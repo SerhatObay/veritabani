@@ -3,7 +3,7 @@
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
   const info = document.querySelector('.il-isimleri');
-
+const card = document.querySelector('#card');
   element.addEventListener(
     'mouseover',
     function (event) {
@@ -16,6 +16,34 @@ function svgturkiyeharitasi() {
       }
     }
   );
+
+    element.addEventListener(
+        'click',
+        function (event) {
+            if (event.target.tagName === 'path') {
+                card.innerHTML = [
+                    '<div>',
+                    event.target.parentNode.getAttribute('data-iladi'),
+                    '<hr>',
+                    '<b>Yüz Ölçümü: 21212 </b>',
+
+                    '<br>',
+
+
+
+                    '<b>Rakım: </b>',
+                    event.target.parentNode.getAttribute('data-rakim'),
+                    '<br>',
+
+                    '<b>İlce Sayısı: </b>',
+                    event.target.parentNode.getAttribute('data-ilcesayisi'),
+                    '<br>',
+
+
+                ].join('');
+            }
+        }
+    );
 
   element.addEventListener(
     'mousemove',

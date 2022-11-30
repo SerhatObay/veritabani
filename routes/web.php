@@ -19,7 +19,9 @@ Route::get('/', function () {
 Route::get('/test',[\App\Http\Controllers\Api\CityController::class,'store']);
 
 Route::get('/tr',function (){
-    return view('tr_map');
+    $cities = \App\Models\City::get()->take(81);
+
+    return view('tr_map',compact('cities'));
 });
 
 Route::get("/iletisim",function (){

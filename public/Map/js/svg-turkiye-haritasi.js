@@ -21,7 +21,7 @@ const card = document.querySelector('#card');
         'click',
         function (event) {
             if (event.target.tagName === 'path') {
-                card.innerHTML = [
+                info.innerHTML = [
                     '<div>',
                     event.target.parentNode.getAttribute('data-iladi'),
                     '<hr>',
@@ -31,6 +31,9 @@ const card = document.querySelector('#card');
                     event.target.parentNode.getAttribute('data-yuzolcumu'),
                     '<br>',
 
+                    '<b>Nüfus: </b>',
+                    event.target.parentNode.getAttribute('data-nufus'),
+                    '<br>',
 
 
 

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-    <a type="button" href="{{ url()->previous() }}" class="btn btn-success" >ANA SAYFAYA GERİ DÖN</a>
+    <a type="button" href="{{ url()->previous() }}" class="btn btn-outline-info" >ANA SAYFAYA GERİ DÖN</a>
     <v
 
         <div class="container-fluid">

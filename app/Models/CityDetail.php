@@ -13,4 +13,7 @@ class CityDetail extends Model
     protected $guarded =[];
 
 
+
+
+
 }

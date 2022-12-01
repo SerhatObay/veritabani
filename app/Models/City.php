@@ -13,7 +13,9 @@ class City extends Model
     protected $guarded =[];
 
 
-
+public function getCityDetails(){
+    return $this->hasOne('App\Models\CityDetail','id');
+}
 
 
 }

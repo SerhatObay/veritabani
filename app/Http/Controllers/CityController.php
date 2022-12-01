@@ -13,6 +13,7 @@ class CityController extends Controller
         $cities_detail = CityDetail::get()->take(81);
 
 
+
         return view('tr_map',compact('cities',"cities_detail"));
     }
 }

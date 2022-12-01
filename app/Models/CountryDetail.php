@@ -5,17 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class CountryDetail extends Model
 {
     use HasFactory;
-    protected $table = 'countries';
+    protected $table="countries_detail";
     protected $primaryKey="id";
     protected $guarded =[];
-
-
-public function getCountryDetails(){
-    return $this->hasOne('App\Models\CountryDetail','id');
-}
-
-
 }

@@ -2,7 +2,7 @@
 @section('content')
 
     <a type="button" href="{{ url('/') }}" class="btn btn-outline-info" >ANA SAYFAYA GERİ DÖN</a>
-    <v
+
 
     <div class="container-fluid">
 
@@ -30,11 +30,12 @@
                         </tr>
                         </thead>
                         <tbody>
+                        @foreach($countries as $country)
 
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td style="color: white">{{$country->name}}</td>
+                            <td style="color: white">{{$country->getCountryDetails->co_population}}</td>
+                            <td style="color: white">{{$country->getCountryDetails->co_area}}</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -49,6 +50,7 @@
 
                             </td>
                         </tr>
+                        @endforeach
 
                         </tbody>
 

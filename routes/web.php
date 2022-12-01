@@ -26,9 +26,7 @@ Route::get("/iletisim",function (){
     return view("contact");
 });
 
-Route::get("/avrupa",function (){
-    return view("europa_table");
-});
+Route::get('/avrupa',[\App\Http\Controllers\CountryController::class,"list"]);
 
 Route::get("/sehirler",function (){
     return view("city_detail");

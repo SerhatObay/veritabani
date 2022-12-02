@@ -87,7 +87,8 @@
                 <p>
                     Copyright &copy; 2022 Tüm Hakları Saklıdır.
 
-                    <br><p>
+                    <br>
+                <p>
                     VTYS TEAM
 
                 </p>
@@ -99,7 +100,6 @@
 </section>
 
 <!-- end info section -->
-
 
 
 <script type="text/javascript" src="{{asset("js/jquery-3.4.1.min.js")}}"></script>
@@ -119,3 +119,5 @@
         grid: true
     });
 </script>
+
+

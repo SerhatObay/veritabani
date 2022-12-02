@@ -574,7 +574,7 @@
             <g id="mardin"
                data-plakakodu="{{$cities[46]->license_plate}}"
                data-alankodu="{{$cities[46]->ci_area_code}}"
-               data-iladi="{{$cities[40]->name}}"
+               data-iladi="{{$cities[46]->name}}"
                data-rakim="{{$cities[46]->altitude}}"
                data-ilcesayisi="{{$cities[46]->district_num}}"
                data-yuzolcumu="{{$cities[46]->getCityDetails->ci_area}}"

@@ -1,7 +1,14 @@
 @extends('layouts.master')
 @section('content')
 
-    <a type="button" href="{{ url('/') }}" class="btn btn-outline-info" >ANA SAYFAYA GERİ DÖN</a>
+    <style>body {
+            font-family: "poppins", sans-serif;
+            background-color: gray;
+            background-size: cover;
+            overflow-x: hidden;
+        }</style>
+
+    <a type="button" href="{{ url('/') }}" class="btn btn-danger">ANA SAYFAYA GERİ DÖN</a>
 
 
     <div class="container-fluid">
@@ -32,24 +39,25 @@
                         <tbody>
                         @foreach($countries as $country)
 
-                        <tr>
-                            <td style="color: white">{{$country->name}}</td>
-                            <td style="color: white">{{$country->getCountryDetails->co_population}}</td>
-                            <td style="color: white">{{$country->getCountryDetails->co_area}}</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td style="width: 100px">
-                                <a href="" class="btn btn-xs btn-success" data-toggle="tooltip" data-placement="top" title="Düzenle">
-                                    <span class="fa fa-pencil"></span>
-                                </a>
+                            <tr>
+                                <td style="color: white">{{$country->name}}</td>
+                                <td style="color: white">{{$country->getCountryDetails->co_population}}</td>
+                                <td style="color: white">{{$country->getCountryDetails->co_area}}</td>
+                                <td><img src="{{$country->flag}}" alt="" width="100"></td>
+                                <td style="color: white">{{$country->city_num}}</td>
+                                <td style="color: white">{{$country->domain}}</td>
+                                <td style="color: white">{{$country->co_area_code}}</td>
+                                <td style="color: white">{{$country->nt_lang}}</td>
+                                <td style="color: white">{{$country->money}}</td>
+                                <td style="color: white">{{$country->f_year}}</td>
+                                <td style="width: 100px">
+                                    <a href="" class="btn btn-xs btn-success" data-toggle="tooltip" data-placement="top"
+                                       title="Düzenle">
+                                        <span class="fa fa-pencil"></span>
+                                    </a>
 
-                            </td>
-                        </tr>
+                                </td>
+                            </tr>
                         @endforeach
 
                         </tbody>
@@ -59,8 +67,5 @@
             </div>
         </div>
     </div>
-
-
-
 
 @endsection

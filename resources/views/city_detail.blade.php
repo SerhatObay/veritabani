@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-    <a type="button" href="{{ url('/') }}" class="btn btn-secondary" >ANA SAYFAYA GERİ DÖN</a>
+    <a type="button" href="{{ url('/') }}" class="btn btn-secondary">ANA SAYFAYA GERİ DÖN</a>
 
     <div class="container-fluid">
 
@@ -9,7 +9,7 @@
 
             <div class="">
                 <br>
-                    <img src="https://assets.enuygun.com/media/lib/570x400/uploads/image/ankara-35906.jpeg" width="200">
+                <img src="https://assets.enuygun.com/media/lib/570x400/uploads/image/ankara-35906.jpeg" width="200">
 
             </div>
 
@@ -51,8 +51,5 @@
             </div>
         </div>
     </div>
-
-
-
 
 @endsection

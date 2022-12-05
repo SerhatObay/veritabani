@@ -3,7 +3,7 @@
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
   const info = document.querySelector('.il-isimleri');
-const card = document.querySelector('#card');
+  const card = document.querySelector('#card');
   element.addEventListener(
     'mouseover',
     function (event) {

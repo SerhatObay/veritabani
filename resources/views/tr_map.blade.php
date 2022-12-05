@@ -21,6 +21,9 @@
 <!-- SVG Türkiye Haritası | MIT Lisans | dnomak.com -->
 <div class="il-isimleri"></div>
 <div class="svg-turkiye-haritasi">
+    <br>
+    <br>
+    <br>
     <svg version="1.1" id="svg-turkiye-haritasi" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1007.478 527.323" xml:space="preserve">
         <g id="turkiye">

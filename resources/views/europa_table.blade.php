@@ -33,7 +33,7 @@
                             <th>Resmi Dili</th>
                             <th>Para Birimi</th>
                             <th>Kuruluş Yılı</th>
-                            <th>Detaylı Bilgi</th>
+                            <th>Başkenti</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -51,9 +51,8 @@
                                 <td style="color: white">{{$country->money}}</td>
                                 <td style="color: white">{{$country->f_year}}</td>
                                 <td style="width: 100px">
-                                    <a href="" class="btn btn-xs btn-success" data-toggle="tooltip" data-placement="top"
-                                       title="Düzenle">
-                                        <span class="fa fa-pencil"></span>
+                                    <a href="" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top">
+                                        <span class="fa fa-pencil">Görüntüle</span>
                                     </a>
 
                                 </td>

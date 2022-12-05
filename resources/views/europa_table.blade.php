@@ -8,7 +8,7 @@
             overflow-x: hidden;
         }</style>
 
-    <a type="button" href="{{ url('/') }}" class="btn btn-danger">ANA SAYFAYA GERİ DÖN</a>
+    <a type="button" href="{{ url('/') }}" class="btn btn-default">ANA SAYFAYA GERİ DÖN</a>
 
 
     <div class="container-fluid">

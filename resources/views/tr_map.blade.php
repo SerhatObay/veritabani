@@ -35,6 +35,9 @@
 <div class="il-isimleri"></div>
 <div class="svg-turkiye-haritasi">
     <br>
+    <h1 style="color: white"> Türkiye Haritası</h1>
+    <br>
+    <br>
     <br>
     <br>
     <svg version="1.1" id="svg-turkiye-haritasi" xmlns="http://www.w3.org/2000/svg"

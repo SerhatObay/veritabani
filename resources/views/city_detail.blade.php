@@ -9,7 +9,7 @@
 
             <div class="">
                 <br>
-                <img src="https://assets.enuygun.com/media/lib/570x400/uploads/image/ankara-35906.jpeg" width="200">
+                <img src="" width="200">
 
             </div>
 

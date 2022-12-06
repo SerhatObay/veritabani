@@ -39,7 +39,7 @@
                         </h5>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     Ana Sayfa
                                 </a>
                             </li>

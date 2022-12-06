@@ -1,4 +1,4 @@
-
+@extends('layouts.master')
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +38,7 @@
     <br>
     <br>
     <svg version="1.1" id="svg-turkiye-haritasi" xmlns="http://www.w3.org/2000/svg"
-         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1007.478 527.323" xml:space="preserve">
+         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1007.478 527.323" xml:space="preserve">,
         <g id="turkiye">
             <g id="adana" data-plakakodu="{{$cities[0]->license_plate}}" data-alankodu="{{$cities[0]->ci_area_code}}"
                data-iladi="{{$cities[0]->name}}" data-rakim="{{$cities[0]->altitude}}"
@@ -1039,5 +1039,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
+
 </html>
+

@@ -1,6 +1,5 @@
 @extends('layouts.master')
 @section('content')
-
     <style>body {
             font-family: "poppins", sans-serif;
             background-color: gray;
@@ -12,6 +11,7 @@
 
 
     <div class="container-fluid">
+
 
         <div class="row">
 

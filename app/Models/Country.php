@@ -16,6 +16,9 @@ class Country extends Model
 public function getCountryDetails(){
     return $this->hasOne('App\Models\CountryDetail','id');
 }
+    public function getCapital(){
+        return $this->hasOne('App\Models\City','countries_id','id')->where('isCapital','1');
+    }
 
 
 }

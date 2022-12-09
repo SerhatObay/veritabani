@@ -50,12 +50,14 @@
                                 <td style="color: white">{{$country->nt_lang}}</td>
                                 <td style="color: white">{{$country->money}}</td>
                                 <td style="color: white">{{$country->f_year}}</td>
+
                                 <td style="width: 100px">
-                                    <a href="" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top">
-                                        <span class="fa fa-pencil">Görüntüle</span>
+                                    <a href="" class="btn btn-xs btn-secondary" data-toggle="tooltip" data-placement="top">
+                                        <span class="fa fa-pencil">{{$country->getCapital->name}}</span>
                                     </a>
 
                                 </td>
+
                             </tr>
                         @endforeach
 
@@ -68,3 +70,4 @@
     </div>
 
 @endsection
+

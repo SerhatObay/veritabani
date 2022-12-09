@@ -16,4 +16,5 @@ class CityController extends Controller
 
         return view('tr_map',compact('cities',"cities_detail"));
     }
+
 }

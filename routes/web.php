@@ -22,9 +22,6 @@ Route::get('/tr',[\App\Http\Controllers\CityController::class,"index"]
 
 );
 
-Route::get("/iletisim",function (){
-    return view("contact");
-});
 
 Route::get('/avrupa',[\App\Http\Controllers\CountryController::class,"list"]);
 

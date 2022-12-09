@@ -37,11 +37,7 @@
                                     <a class="nav-link" href="https://www.hurriyet.com.tr/dunya/">Haberler</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{asset("iletisim")}}">
-                                        İletişim
-                                    </a>
-                                </li>
+
 
 
                             </ul>

@@ -54,11 +54,7 @@
                                 </a>
                             </li>
 
-                            <li>
-                                <a href="{{asset('iletisim')}}">
-                                    İletişim
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>

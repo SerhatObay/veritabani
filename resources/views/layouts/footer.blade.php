@@ -67,7 +67,7 @@
                             <img src="images/location2.png" alt="">
                             <span> Fırat Üniversitesi/Elazığ</span>
                         </a>
-                        <a href="">
+                        <a href="tel:05412487038">
                             <img src="images/call.png" alt="">
                             <span>Telefon</span>
                         </a>
@@ -104,16 +104,23 @@
 <!-- range selector slider script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 
+{{--<script>--}}
+{{--    $(".js-range-slider").ionRangeSlider({--}}
+{{--        skin: "round",--}}
+{{--        type: "double",--}}
+{{--        min: 200,--}}
+{{--        max: 10000,--}}
+{{--        from: 200,--}}
+{{--        to: 500,--}}
+{{--        grid: true--}}
+{{--    });--}}
+{{--</script>--}}
+
 <script>
-    $(".js-range-slider").ionRangeSlider({
-        skin: "round",
-        type: "double",
-        min: 200,
-        max: 10000,
-        from: 200,
-        to: 500,
-        grid: true
-    });
+    function Capital() {
+        document.getElementById("demo").innerHTML = "Hello World";
+    }
 </script>
+
 
 

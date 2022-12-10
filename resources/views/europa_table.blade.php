@@ -1,5 +1,7 @@
 @extends('layouts.master')
 @section('content')
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+
     <style>body {
             font-family: "poppins", sans-serif;
             background-color: gray;
@@ -20,7 +22,7 @@
                 <h1 class="page-header" style="color: white">Avrupa Ülkeleri</h1>
 
                 <div class="table-responsive">
-                    <table class="table table-hover table-bordered">
+                    <table id="example" class="table table-striped" style="width:100%">
                         <thead class="thead-dark">
                         <tr>
                             <th>Ülke Adı</th>
@@ -52,9 +54,12 @@
                                 <td style="color: white">{{$country->f_year}}</td>
 
                                 <td style="width: 100px">
-                                    <a href="" class="btn btn-xs btn-secondary" data-toggle="tooltip" data-placement="top">
-                                        <span class="fa fa-pencil">{{$country->getCapital->name}}</span>
-                                    </a>
+                                    <button data-nufus="{{$country->getCapital->ci_population}}" onclick="Capital()" id="btnCapital" class="btn btn-xs btn-secondary" data-toggle="tooltip" data-placement="top">
+                                        {{$country->getCapital->name}}
+
+                                    </button>
+                                    <p id="demo"></p>
+
 
                                 </td>
 
@@ -68,6 +73,16 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable();
+    });
+ </script>
+
+
+
 
 @endsection
 

@@ -117,8 +117,11 @@
 {{--</script>--}}
 
 <script>
+
     function Capital() {
-        document.getElementById("demo").innerHTML = "Hello World";
+        const info = document.querySelector('.baskent-isimleri');
+
+        document.getElementById("demo").innerHTML ="Hello World"
     }
 </script>
 

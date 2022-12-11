@@ -11,7 +11,7 @@
 
     <a type="button" href="{{ url('/') }}" class="btn btn-default">ANA SAYFAYA GERİ DÖN</a>
 
-
+    <div class="baskent-isimleri"></div>
     <div class="container-fluid">
 
 
@@ -54,7 +54,7 @@
                                 <td style="color: white">{{$country->f_year}}</td>
 
                                 <td style="width: 100px">
-                                    <button data-nufus="{{$country->getCapital->ci_population}}" onclick="Capital()" id="btnCapital" class="btn btn-xs btn-secondary" data-toggle="tooltip" data-placement="top">
+                                    <button  onclick="Capital()" id="btnCapital" class="btn btn-xs btn-secondary" data-toggle="tooltip" data-placement="top">
                                         {{$country->getCapital->name}}
 
                                     </button>

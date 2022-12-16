@@ -18,13 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/test',[\App\Http\Controllers\Api\CityController::class,'store']);
 
-Route::get('/tr',[\App\Http\Controllers\CityController::class,"index"]
-
-);
-
-
-Route::get('/avrupa',[\App\Http\Controllers\CountryController::class,"list"]);
-
+Route::get('/tr',[\App\Http\Controllers\CityController::class,"index"]);
 
 Route::get('/eu',[\App\Http\Controllers\CountryController::class,"showFetch"])->name('showFetch');
 Route::get('/deneme',[\App\Http\Controllers\CountryController::class,"fetchEuropa"])->name('countryFetch');

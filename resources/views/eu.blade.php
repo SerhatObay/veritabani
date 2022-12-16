@@ -67,7 +67,7 @@
             <div class="modal-content">
                 <div class="modal-header" style="background-color: #E5E8E8;">
                     <h5 class="modal-title" style="font-weight: bold; font-size: 25px !important; "><span id="headerCapital" style="font-style: italic "></span>
-                        Bilgileri</h5>
+                        Bilgiler</h5>
                     <button type="button" onclick="toggleModal()" class="close" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -164,14 +164,6 @@
 
         function showInfo(id) {
 
-            var ci_population = $('#ci_populationUpdate');
-            var ci_area = $('#ci_areaUpdate');
-            var license_plate = $('#license_plateUpdate');
-            var ci_area_code = $('#ci_area_codeUpdate');
-            var altitude = $('#altitudeUpdate');
-            var district_num = $('#district_numUpdate');
-
-
             $.ajax({
                 type: 'GET',
                 url: '{{route('countryDetail')}}',
@@ -180,7 +172,6 @@
                     $('#ci_populationUpdate').text(data.population);
                     $('#ci_populationUpdate').text(data.population);
                     $('#headerCapital').text(data.name);
-
                     $('#ci_areaUpdate').text(data.area);
                     $('#license_plateUpdate').text(data.license_plate);
                     $('#ci_area_codeUpdate').text(data.ci_area_code);
@@ -217,4 +208,3 @@
 
 
 @endsection
-

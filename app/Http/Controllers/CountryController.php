@@ -24,7 +24,6 @@ public function showFetch(){
         return view('eu');
 }
 
-
     public function fetchEuropa(){
         $countries = Country::get();
         return DataTables::of($countries)
@@ -37,8 +36,8 @@ public function showFetch(){
                 return $nufus;
             })
             ->editColumn('yuzolcumu',function ($data){
-                $yuzolcum = $data->getCountryDetails->co_area;
-                return $yuzolcum;
+                $yuzolcumu = $data->getCountryDetails->co_area;
+                return $yuzolcumu;
             })
             ->editColumn('bayrak',function ($data){
                 $bayrak = $data->flag;
@@ -77,8 +76,8 @@ public function showFetch(){
     function countryDetail(Request $request)
     {
 
-        $companies = City::where('id',$request->id)->where('isCapital',1)->first();
-        return response()->json(['name' => $companies->name,'population'=>$companies->getCityDetails->ci_population,'area'=>$companies->getCityDetails->ci_area, 'license_plate' => $companies->license_plate, 'ci_area_code' => $companies->ci_area_code, 'altitude' => $companies->altitude, 'district_num' => $companies->district_num]);
+        $countries = City::where('id',$request->id)->where('isCapital',1)->first();
+        return response()->json(['name' => $countries->name,'population'=>$countries->getCityDetails->ci_population,'area'=>$countries->getCityDetails->ci_area, 'license_plate' => $countries->license_plate, 'ci_area_code' => $countries->ci_area_code, 'altitude' => $countries->altitude, 'district_num' => $countries->district_num]);
 
     }
 }

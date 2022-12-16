@@ -25,6 +25,11 @@ Route::get('/tr',[\App\Http\Controllers\CityController::class,"index"]
 
 Route::get('/avrupa',[\App\Http\Controllers\CountryController::class,"list"]);
 
+
+Route::get('/eu',[\App\Http\Controllers\CountryController::class,"showFetch"])->name('showFetch');
+Route::get('/deneme',[\App\Http\Controllers\CountryController::class,"fetchEuropa"])->name('countryFetch');
+Route::get('/detail',[\App\Http\Controllers\CountryController::class,"countryDetail"])->name('countryDetail');
+
 Route::get("/sehirler",function (){
     return view("city_detail");
 });

@@ -104,7 +104,7 @@
                             </p>
                         </div>
                     </div>
-                    <a href="{{asset('avrupa')}}">
+                    <a href="{{asset('eu')}}">
                         DETAYLI BİLGİ
                 </div>
             </div>

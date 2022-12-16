@@ -29,5 +29,8 @@
     <link href="{{asset("css/style.css")}}" rel="stylesheet"/>
     <!-- responsive style -->
     <link href="{{asset("css/responsive.css")}}" rel="stylesheet"/>
+    <script src="{{asset('jquery/jquery-3.6.0.js')}}"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 
 </head>

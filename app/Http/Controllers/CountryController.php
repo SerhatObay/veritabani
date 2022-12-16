@@ -11,13 +11,8 @@ class CountryController extends Controller
 
     public function list(){
 
-        $countries=Country::all();
-
-
+        $countries=Country::paginate(10);
         return view("europa_table",compact("countries"));
-
-
-
 
     }
 }

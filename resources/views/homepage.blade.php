@@ -37,9 +37,6 @@
                                     <a class="nav-link" href="https://www.hurriyet.com.tr/dunya/">Haberler</a>
                                 </li>
 
-
-
-
                             </ul>
 
                         </div>

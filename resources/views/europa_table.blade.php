@@ -60,7 +60,6 @@
                                     </button>
                                     <p id="demo"></p>
 
-
                                 </td>
 
                             </tr>
@@ -69,6 +68,7 @@
                         </tbody>
 
                     </table>
+                    {{$countries->links('pagination::bootstrap-4')}}
                 </div>
             </div>
         </div>
@@ -77,12 +77,9 @@
     <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#example').DataTable();
+        $('#example').DataTable({})
     });
  </script>
-
-
-
 
 @endsection
 

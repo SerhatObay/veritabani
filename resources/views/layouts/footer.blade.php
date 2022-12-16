@@ -71,10 +71,7 @@
                             <img src="images/call.png" alt="">
                             <span>Telefon</span>
                         </a>
-                        <a href="">
-                            <img src="images/mail.png" alt="">
-                            <span> E-mail</span>
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -121,7 +118,7 @@
     function Capital() {
         const info = document.querySelector('.baskent-isimleri');
 
-        document.getElementById("demo").innerHTML ="Hello World"
+        document.getElementById("demo").innerHTML ="Başkent Bilgileri"
     }
 </script>
 

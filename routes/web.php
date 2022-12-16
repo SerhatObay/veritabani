@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homepage');
 });
+
 Route::get('/test',[\App\Http\Controllers\Api\CityController::class,'store']);
 
 Route::get('/tr',[\App\Http\Controllers\CityController::class,"index"]);

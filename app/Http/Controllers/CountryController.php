@@ -72,7 +72,6 @@ public function showFetch(){
 
     }
 
-
     function countryDetail(Request $request)
     {
 

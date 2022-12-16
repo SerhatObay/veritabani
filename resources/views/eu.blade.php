@@ -16,7 +16,6 @@
 
     <div class="container-fluid">
 
-
         <div class="row">
 
             <div class="col-sm-14 col-md-15 col-lg-12 col-lg-offset-15 main">
